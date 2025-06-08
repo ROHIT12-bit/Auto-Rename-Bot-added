@@ -3,20 +3,20 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "20366634")
+    API_HASH  = os.environ.get("API_HASH", "72095ec36984aa9ceb0dbaa9cec31559")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7694194703:AAF_u-SyXjXvqmZn6gczvqlLnB27fkarASU") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","madflixbotz")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://nitinkumardhundhara:DARKXSIDE78@cluster0.wdive.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/4b306f4b15c23a8f22e58.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    START_PIC   = os.environ.get("START_PIC", "https://ibb.co/pvL1RH0c")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7845335174').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002611038436"))
     
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
@@ -35,17 +35,17 @@ class Txt(object):
 ➲ ᴇᴘɪꜱᴏᴅᴇ - ᴛᴏ ʀᴇᴘʟᴀᴄᴇ ᴇᴘɪꜱᴏᴅᴇ ɴᴜᴍʙᴇʀ
 ➲ ǫᴜᴀʟɪᴛʏ - ᴛᴏ ʀᴇᴘʟᴀᴄᴇ ǫᴜᴀʟɪᴛʏ
 
-<b>‣ ꜰᴏʀ ᴇx:- </b> <code> /autorename Your Anime Name Here [S01 - EPepisode - [Quality]  [Dual] @Seishiro_atanime </code>
+<b>‣ ꜰᴏʀ ᴇx:- </b> <code> /autorename Your Anime Name Here [S01 - EPepisode - [Quality]  [Dual] @ROHITREDDY69 </code>
 
 <b>‣ /Autorename: ʀᴇɴᴀᴍᴇ ʏᴏᴜʀ ᴍᴇᴅɪᴀ ꜰɪʟᴇꜱ ʙʏ ɪɴᴄʟᴜᴅɪɴɢ 'ᴇᴘɪꜱᴏᴅᴇ' ᴀɴᴅ 'ǫᴜᴀʟɪᴛʏ' ᴠᴀʀɪᴀʙʟᴇꜱ ɪɴ ʏᴏᴜʀ ᴛᴇxᴛ, ᴛᴏ ᴇxᴛʀᴀᴄᴛ ᴇᴘɪꜱᴏᴅᴇ ᴀɴᴅ ǫᴜᴀʟɪᴛʏ ᴘʀᴇꜱᴇɴᴛ ɪɴ ᴛʜᴇ ᴏʀɪɢɪɴᴀʟ ꜰɪʟᴇɴᴀᴍᴇ. """
     
-    ABOUT_TXT = f"""<b>❍ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/seishirofileRenamerbot">ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ</a>
-❍ ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href="https://t.me/seishiro_atanime">Seishiro</a>
+    ABOUT_TXT = f"""<b>❍ ᴍʏ ɴᴀᴍᴇ : <a href="http://t.me/Anielite_RNBOT">ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ</a>
+❍ ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href="https://t.me/ROHITREDDY69">Seishiro</a>
 ❍ ɢɪᴛʜᴜʙ : <a href="https://github.com/seishironotxteam">404.... error</a>
 ❍ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
 ❍ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
-❍ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://t.me/seishiro_atanime">error...Not found...</a>
-❍ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href="https://t.me/seishiro_atanime">ᴀɴɪᴍᴇ</a>
+❍ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://t.me/ROHITREDDY69">error...Not found...</a>
+❍ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href="https://t.me/ANIELITETELUGU">ᴀɴɪᴍᴇ</a>
 
 ➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴍᴇ.</b>"""
 
